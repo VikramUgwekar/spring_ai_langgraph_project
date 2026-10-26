@@ -1,0 +1,8 @@
+spring:
+  ai:
+    openai:
+      api-key: AQ.Ab8RN6LmEAzmeuUb8bEzj55O8bGs0hJvPGUHZ-Qabvg6detBZA
+      base-url: https://generativelanguage.googleapis.com/v1beta/openai
+      chat:
+        options:
+          model: gemini-3.8-flash
