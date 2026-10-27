@@ -1,7 +1,7 @@
 spring:
   ai:
     openai:
-      api-key: AQ.Ab8RN6LmEAzmeuUb8bEzj55O8bGs0hJvPGUHZ-Qabvg6detBZA
+      api-key: ${GOOGLE_AI_API_KEY:}
       base-url: https://generativelanguage.googleapis.com/v1beta/openai
       chat:
         options:
